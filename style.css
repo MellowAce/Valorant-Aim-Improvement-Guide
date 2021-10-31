@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header {
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  #navbar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    top: 0px;
+    left: 0px;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.6);
+    margin: auto;
+  }
+  
+  #navbar header {
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #navbar li {
+    color: #000000;
+    border-top: 1px solid;
+    list-style: none;
+    width: 100%;
+    left: 0px;
+  }
+
+  #navbar li:last-child {
+    color: #000000;
+    border-bottom: 1px solid;
+  }
+
+  #navbar a {
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  #navbar a:hover {
+    background-color: #000000;
+    color: white;
+  }
+  
+  #main-doc {
+    margin-top: 20px;
+    margin-left: 200px;
+    padding-left: 20px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+
+  img {
+    width: 75%; /* you can use % */
+    height: auto;
+    align-content: center;
+    margin: 50px;
+}
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 20px;
+    padding-inline-start: 150px;
+  }
+
+  .center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+  }
+
+  .crosshairs p {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  code {
+    display: block;
+    text-align: left;
+    white-space: normal;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    right: 10px;
+  }
+
+  .settings {
+    padding-inline-start: 35px;
+  }
+
+  #Aim_Trainers article header {
+    padding-inline-start: 210px;
+    font-size: 30px;
+  }
+
+  #Aim_Trainers article p {
+    padding-inline-start: 210px;
+    padding-inline-end: 210px;
+    text-align: center;
+    line-height: 2;
+  }
