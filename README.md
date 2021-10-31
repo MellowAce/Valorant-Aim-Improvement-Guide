@@ -1,7 +1,7 @@
 # Valorant-Aim-Improvement-Guide
 
 <h1 align="center">Hi 👋, I'm Richard Nguyen</h1>
-<h3 align="center">a teenager looking to explore the world of Computer Science and Coding!</h3>
+<h3 align="center">A teenager looking to explore the world of Computer Science and Coding!</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mellowace&label=Profile%20views&color=0e75b6&style=flat" alt="mellowace" /> </p>
 
